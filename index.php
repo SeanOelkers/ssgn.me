@@ -26,7 +26,7 @@ $d[5] = date('Y-m-d',strtotime($theDate." +4 day"));
 
     <!-- core CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh6PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
     <link href="/assets/css/ssgn.css" rel="stylesheet">
@@ -39,8 +39,7 @@ $d[5] = date('Y-m-d',strtotime($theDate." +4 day"));
     <main role="main" class="container">
 
       <div class="starter-template">
-        <h1>ssgn initialize</h1>
-        <p class="lead">initial start of the ssgn.me project</p>
+          <h1>ssgn initialize</h1>
       </div>
 
       <div class='row'>
@@ -52,10 +51,32 @@ $d[5] = date('Y-m-d',strtotime($theDate." +4 day"));
       <div class='row'>
 
         <div class='col'>
-          <div class="card">
-            <div class='card-header text-white bg-primary'>
-              Algebra II
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-primary'>Algebra II</h6>
+            <div class="card-body">
+              <p class='card-text'>Toby wuz here...</p>
             </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-info'>European History</h6>
+            <div class="card-body">
+              <p class='card-text'>This is some text within a card body.</p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-success'>Spanish</h6>
+            <div class="card-body">
+              <p class='card-text'>This is some text within a card body.</p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-warning'>Figure Drawing</h6>
+            <div class="card-body">
+              <p class='card-text'>This is some text within a card body.</p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-danger'>Macro Economics</h6>
             <div class="card-body">
               <p class='card-text'>This is some text within a card body.</p>
             </div>
@@ -63,10 +84,32 @@ $d[5] = date('Y-m-d',strtotime($theDate." +4 day"));
         </div>
 
         <div class='col'>
-          <div class="card">
-            <div class='card-header text-white bg-info'>
-              European History
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-primary'>Algebra II</h6>
+            <div class="card-body">
+              <p class='card-text'>Toby wuz here...</p>
             </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-info'>European History</h6>
+            <div class="card-body">
+              <p class='card-text'>This is some text within a card body.</p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-success'>Spanish</h6>
+            <div class="card-body">
+              <p class='card-text'>This is some text within a card body.</p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-warning'>Figure Drawing</h6>
+            <div class="card-body">
+              <p class='card-text'>This is some text within a card body.</p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-danger'>Macro Economics</h6>
             <div class="card-body">
               <p class='card-text'>This is some text within a card body.</p>
             </div>
@@ -74,10 +117,32 @@ $d[5] = date('Y-m-d',strtotime($theDate." +4 day"));
         </div>
 
         <div class='col'>
-          <div class="card">
-            <div class='card-header text-white bg-success'>
-              Spanish
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-primary'>Algebra II</h6>
+            <div class="card-body">
+              <p class='card-text'>Toby wuz here...</p>
             </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-info'>European History</h6>
+            <div class="card-body">
+              <p class='card-text'>This is some text within a card body.</p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-success'>Spanish</h6>
+            <div class="card-body">
+              <p class='card-text'>This is some text within a card body.</p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-warning'>Figure Drawing</h6>
+            <div class="card-body">
+              <p class='card-text'>This is some text within a card body.</p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-danger'>Macro Economics</h6>
             <div class="card-body">
               <p class='card-text'>This is some text within a card body.</p>
             </div>
@@ -85,10 +150,32 @@ $d[5] = date('Y-m-d',strtotime($theDate." +4 day"));
         </div>
 
         <div class='col'>
-          <div class="card">
-            <div class='card-header text-white bg-warning'>
-              Figure Drawing
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-primary'>Algebra II</h6>
+            <div class="card-body">
+              <p class='card-text'>Toby wuz here...</p>
             </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-info'>European History</h6>
+            <div class="card-body">
+              <p class='card-text'>This is some text within a card body.</p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-success'>Spanish</h6>
+            <div class="card-body">
+              <p class='card-text'>This is some text within a card body.</p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-warning'>Figure Drawing</h6>
+            <div class="card-body">
+              <p class='card-text'>This is some text within a card body.</p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-danger'>Macro Economics</h6>
             <div class="card-body">
               <p class='card-text'>This is some text within a card body.</p>
             </div>
@@ -96,10 +183,32 @@ $d[5] = date('Y-m-d',strtotime($theDate." +4 day"));
         </div>
 
         <div class='col'>
-          <div class="card">
-            <div class='card-header text-white bg-danger'>
-              Macro Economics
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-primary'>Algebra II</h6>
+            <div class="card-body">
+              <p class='card-text'>Toby wuz here...</p>
             </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-info'>European History</h6>
+            <div class="card-body">
+              <p class='card-text'>This is some text within a card body.</p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-success'>Spanish</h6>
+            <div class="card-body">
+              <p class='card-text'>This is some text within a card body.</p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-warning'>Figure Drawing</h6>
+            <div class="card-body">
+              <p class='card-text'>This is some text within a card body.</p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-danger'>Macro Economics</h6>
             <div class="card-body">
               <p class='card-text'>This is some text within a card body.</p>
             </div>
@@ -107,6 +216,8 @@ $d[5] = date('Y-m-d',strtotime($theDate." +4 day"));
         </div>
 
       </div>
+
+
 
     </main><!-- /.container -->
 
