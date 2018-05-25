@@ -34,7 +34,7 @@ if(isset($_GET['date']) && checkDateTime($_GET['date'])) {
     <main role="main" class="container">
 
       <div class="starter-template">
-          <h1>ssgn initialize</h1>
+          <h1 class='text-muted'>a<strong class='text-success'>ss</strong>i<strong class='text-warning'>gn</strong>ed to <strong class='text-danger'>me</strong></h1>
       </div>
 
       <div class='row'>
