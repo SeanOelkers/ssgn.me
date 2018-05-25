@@ -7,11 +7,6 @@ if(isset($_GET['date']) && checkDateTime($_GET['date'])) {
 } else {
   $theDate = date('Y-m-d');
 }
-$d[1] = date('Y-m-d',strtotime($theDate));
-$d[2] = date('Y-m-d',strtotime($theDate." +1 day"));
-$d[3] = date('Y-m-d',strtotime($theDate." +2 day"));
-$d[4] = date('Y-m-d',strtotime($theDate." +3 day"));
-$d[5] = date('Y-m-d',strtotime($theDate." +4 day"));
 ?>
 <!doctype html>
 <html lang="en">
@@ -43,14 +38,43 @@ $d[5] = date('Y-m-d',strtotime($theDate." +4 day"));
       </div>
 
       <div class='row'>
-<? foreach($d as $dateHead) { ?>
-        <div class='col text-center'><h5><? echo date('l, M jS',strtotime($dateHead)) ?></h5></div>
-<? } ?>
-      </div>
 
-      <div class='row'>
+        <div class='col-lg-4'>
+          <h5 class='text-center'><? echo date('l, M jS',strtotime($theDate)) ?></h5>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-primary'>Algebra II</h6>
+            <div class="card-body">
+              <p class='card-text'>Toby wuz here...</p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-info'>European History</h6>
+            <div class="card-body">
+              <p class='card-text'>This is some text within a card body.</p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-success'>Spanish</h6>
+            <div class="card-body">
+              <p class='card-text'>This is some text within a card body.</p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-warning'>Figure Drawing</h6>
+            <div class="card-body">
+              <p class='card-text'>This is some text within a card body.</p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <h6 class='card-header text-white bg-danger'>Mac onomics</h6>
+            <div class="card-body">
+              <p class='card-text'>This is some text within a card body.</p>
+            </div>
+          </div>
+        </div>
 
-        <div class='col'>
+        <div class='col-lg-4'>
+          <h5 class='text-center'><? echo date('l, M jS',strtotime($theDate." +1 day")) ?></h5>
           <div class="card mb-3">
             <h6 class='card-header text-white bg-primary'>Algebra II</h6>
             <div class="card-body">
@@ -83,106 +107,8 @@ $d[5] = date('Y-m-d',strtotime($theDate." +4 day"));
           </div>
         </div>
 
-        <div class='col'>
-          <div class="card mb-3">
-            <h6 class='card-header text-white bg-primary'>Algebra II</h6>
-            <div class="card-body">
-              <p class='card-text'>Toby wuz here...</p>
-            </div>
-          </div>
-          <div class="card mb-3">
-            <h6 class='card-header text-white bg-info'>European History</h6>
-            <div class="card-body">
-              <p class='card-text'>This is some text within a card body.</p>
-            </div>
-          </div>
-          <div class="card mb-3">
-            <h6 class='card-header text-white bg-success'>Spanish</h6>
-            <div class="card-body">
-              <p class='card-text'>This is some text within a card body.</p>
-            </div>
-          </div>
-          <div class="card mb-3">
-            <h6 class='card-header text-white bg-warning'>Figure Drawing</h6>
-            <div class="card-body">
-              <p class='card-text'>This is some text within a card body.</p>
-            </div>
-          </div>
-          <div class="card mb-3">
-            <h6 class='card-header text-white bg-danger'>Macro Economics</h6>
-            <div class="card-body">
-              <p class='card-text'>This is some text within a card body.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class='col'>
-          <div class="card mb-3">
-            <h6 class='card-header text-white bg-primary'>Algebra II</h6>
-            <div class="card-body">
-              <p class='card-text'>Toby wuz here...</p>
-            </div>
-          </div>
-          <div class="card mb-3">
-            <h6 class='card-header text-white bg-info'>European History</h6>
-            <div class="card-body">
-              <p class='card-text'>This is some text within a card body.</p>
-            </div>
-          </div>
-          <div class="card mb-3">
-            <h6 class='card-header text-white bg-success'>Spanish</h6>
-            <div class="card-body">
-              <p class='card-text'>This is some text within a card body.</p>
-            </div>
-          </div>
-          <div class="card mb-3">
-            <h6 class='card-header text-white bg-warning'>Figure Drawing</h6>
-            <div class="card-body">
-              <p class='card-text'>This is some text within a card body.</p>
-            </div>
-          </div>
-          <div class="card mb-3">
-            <h6 class='card-header text-white bg-danger'>Macro Economics</h6>
-            <div class="card-body">
-              <p class='card-text'>This is some text within a card body.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class='col'>
-          <div class="card mb-3">
-            <h6 class='card-header text-white bg-primary'>Algebra II</h6>
-            <div class="card-body">
-              <p class='card-text'>Toby wuz here...</p>
-            </div>
-          </div>
-          <div class="card mb-3">
-            <h6 class='card-header text-white bg-info'>European History</h6>
-            <div class="card-body">
-              <p class='card-text'>This is some text within a card body.</p>
-            </div>
-          </div>
-          <div class="card mb-3">
-            <h6 class='card-header text-white bg-success'>Spanish</h6>
-            <div class="card-body">
-              <p class='card-text'>This is some text within a card body.</p>
-            </div>
-          </div>
-          <div class="card mb-3">
-            <h6 class='card-header text-white bg-warning'>Figure Drawing</h6>
-            <div class="card-body">
-              <p class='card-text'>This is some text within a card body.</p>
-            </div>
-          </div>
-          <div class="card mb-3">
-            <h6 class='card-header text-white bg-danger'>Macro Economics</h6>
-            <div class="card-body">
-              <p class='card-text'>This is some text within a card body.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class='col'>
+        <div class='col-lg-4'>
+          <h5 class='text-center'><? echo date('M jS',strtotime($theDate." +2 day")) ?> - <? echo date('M jS',strtotime($theDate." +1 week")) ?></h5>
           <div class="card mb-3">
             <h6 class='card-header text-white bg-primary'>Algebra II</h6>
             <div class="card-body">
